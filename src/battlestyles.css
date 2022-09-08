@@ -1,0 +1,95 @@
+progress {
+    border-radius: 0px; 
+    float: left;
+  }
+progress::-webkit-progress-bar {
+    background-color: white;
+  }
+progress::-webkit-progress-bar:hover {
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 1);
+}
+.healthBar::-webkit-progress-value{
+    background-color: red;
+}
+.attackBar::-webkit-progress-value{
+    background-color: purple;
+}
+.defenseBar::-webkit-progress-value{
+    background-color: lightseagreen;
+}
+.agilityBar::-webkit-progress-value{
+    background-color:springgreen;
+}
+.vitalityBar::-webkit-progress-value{
+    background-color: rgb(223, 67, 93);
+}
+
+
+.center{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.films{
+    width: 550px;
+    height: 600px;
+    text-align: center;
+    font-family: Courier;
+}
+
+.film1{
+    
+    background-color: lightblue;
+    float: left;
+    width: 50%;
+}
+
+.film2{
+    background-color: lightgreen;
+    float: right;
+    width: 50%;
+}
+
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Courier;
+}
+
+.language{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Courier;
+}
+
+.vs{
+    position: fixed;
+    left: 47%;
+    font-size: 80px;
+    font-family: Courier;
+}
+
+.button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Courier;
+    color:rgb(217, 221, 226);
+    background-color:steelblue;
+}
+button:hover{
+    color:rgb(236, 241, 247);
+    background-color:rgb(47, 87, 119);
+}
+
+.pageTitle{
+    font-size: 50px;
+    background-color:rgb(231, 171, 231);
+    width: 100%;
+    font-weight: bold;
+    font-family: Courier;
+}
